@@ -1,0 +1,84 @@
+>>> l = shruberry 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'shruberry' is not defined
+>>> l
+'shruberry'
+>>> L = list(l)
+>>> L
+['s', 'h', 'r', 'u', 'b', 'e', 'r', 'r', 'y']
+>>> L[1] = 'c'
+>>> L
+['s', 'c', 'r', 'u', 'b', 'e', 'r', 'r', 'y']
+>>> ''.join(L)
+'scruberry'
+>>> 'a'.join(L)
+'sacarauabaeararay'
+>>> '-'.join(L)
+'s-c-r-u-b-e-r-r-y'
+>>> b = bytearray(b'scam')
+>>> b
+bytearray(b'scam')
+>>> b,append('sth')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'append' is not defined
+>>> b
+bytearray(b'scam')
+>>> b.append(b'sth')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: string must be of size 1
+>>> b.extend(b'sth')
+>>> b
+bytearray(b'scamsth')
+>>> b.decode()
+u'scamsth'
+>>> c = bytearray(b'onlyb')
+>>> c.extend(b'yisthat')
+>>> c
+bytearray(b'onlybyisthat')
+>>> 
+>>> b
+bytearray(b'scamsth')
+>>> l
+'shruberry'
+>>> l.upper()
+'SHRUBERRY'
+>>> l
+'shruberry'
+>>> l.upperCase()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'upperCase'
+>>> l.uppercase()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'uppercase'
+>>> l.upper()
+'SHRUBERRY'
+>>> l.isalpha()
+True
+>>> l.isdigit()
+False
+>>> line = 'a,bb,ccc,ddd/n'
+>>> line
+'a,bb,ccc,ddd/n'
+>>> line.rstrip()
+'a,bb,ccc,ddd/n'
+>>> line = 'a,bb,ccc,ddd\n'
+>>> line
+'a,bb,ccc,ddd\n'
+>>> line.rstrip()
+'a,bb,ccc,ddd'
+>>> '%s, eggs, %s'%('spam', 'SPAM')
+'spam, eggs, SPAM'
+>>> '%A, eggs, %A'%('spam', 'SPAM')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: unsupported format character 'A' (0x41) at index 1
+>>> '%a, eggs, %a'%('spam', 'SPAM')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: unsupported format character 'a' (0x61) at index 1
+>>> 
