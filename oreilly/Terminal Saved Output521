@@ -1,0 +1,866 @@
+yh@jeongboyeons-MacBook-Pro ~ % brew install pyenv 
+Updating Homebrew...
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+==> Auto-updated Homebrew!
+Updated 3 taps (homebrew/core, homebrew/services and mongodb/brew).
+==> New Formulae
+asuka                    fargatecli               kamel                    rcm
+autodiff                 fcct                     kumactl                  redo
+bcoin                    field3d                  lc0                      reorder-python-imports
+beancount                flarectl                 leakcanary-shark         rtorrent
+bootloadhid              flash                    libcpuid                 semgrep
+cbmc                     fplll                    libolm                   semtag
+chezmoi                  gdbgui                   libpqxx@6                sollya
+claws-mail               geph2                    libtorrent-rakshasa      spotify-tui
+clip                     ghc@8.8                  lizard-analyzer          spotifyd
+code-server              ghz                      llvm@9                   tanka
+confd                    git-bug                  minipro                  tengo
+cqlkit                   git-remote-codecommit    mongodb/brew/mongocli    trailscraper
+cucumber-ruby            gmailctl                 odin                     trimage
+detach                   go-jsonnet               oha                      uutils-coreutils
+dmagnetic                guile@2                  openfast                 vlmcsd
+dolt                     hcxtools                 openstackclient          volta
+duktape                  hdf5-mpi                 pass-git-helper          vroom
+earthly                  inxi                     pfetch                   wolfmqtt
+emacs-dracula            jc                       quill                    xxh
+erlang@22                jolie                    rbtools
+==> Updated Formulae
+mongodb/brew/mongodb-community ✔                   libspiro
+abcl                                               libssh
+abcmidi                                            libtensorflow
+abook                                              libtensorflow@1
+abseil                                             libtorch
+ace                                                libtorrent-rasterbar
+acpica                                             libtrace
+adios2                                             libuninameslist
+adplug                                             libupnp
+adwaita-icon-theme                                 libuv
+afflib                                             libvirt
+algol68g                                           libvisio
+aliyun-cli                                         libwbxml
+allure                                             libwebsockets
+alot                                               libwps
+ammonite-repl                                      libxml2
+amqp-cpp                                           libxmlsec1
+angular-cli                                        libyaml
+anime-downloader                                   libzdb
+anjuta                                             libzt
+ansible                                            libzzip
+ansible@2.8                                        lilv
+ant                                                link-grammar
+antibody                                           linkerd
+anycable-go                                        liquibase
+apache-arrow                                       liquidctl
+apache-arrow-glib                                  liquigraph
+apache-flink                                       literate-git
+apache-geode                                       livestreamer
+apib                                               llnode
+apibuilder-cli                                     llvm
+apollo-cli                                         llvm@6
+appium                                             llvm@7
+arangodb                                           llvm@8
+arcade-learning-environment                        lmdb
+archivemount                                       lmod
+arduino-cli                                        logstash
+armadillo                                          logtalk
+artifactory                                        lsd
+asciidoctor                                        lsdvd
+asciidoctorj                                       luaradio
+asio                                               luvit
+ask-cli                                            lv
+astrometry-net                                     lv2
+atk                                                lxc
+atlantis                                           macvim
+atlassian-cli                                      magic-wormhole
+aubio                                              makeself
+audacious                                          mame
+autogen                                            manticoresearch
+autopep8                                           mapnik
+aws-cdk                                            mapserver
+aws-elasticbeanstalk                               mariadb
+aws-es-proxy                                       mariadb-connector-odbc
+aws-google-auth                                    mariadb@10.2
+aws-sdk-cpp                                        mariadb@10.3
+awscli                                             mas
+awscli@1                                           mat2
+awsume                                             math-comp
+axel                                               maven-completion
+azcopy                                             mavsdk
+azure-cli                                          maxwell
+azure-storage-cpp                                  mbedtls
+b2-tools                                           mdbook
+b3sum                                              mdcat
+babel                                              mdk
+babeld                                             mdv
+babl                                               media-info
+baidupcs-go                                        mednafen
+balena-cli                                         megatools
+ballerina                                          meilisearch
+bandwhich                                          memcached
+baobab                                             mercurial
+bareos-client                                      mercury
+bartycrouch                                        mesa
+basex                                              meson
+bash                                               meson-internal
+bat                                                metabase
+batik                                              mftrace
+bats-core                                          mg
+bazel                                              mgba
+bazelisk                                           micro
+bde                                                micronaut
+bear                                               micropython
+bedops                                             mill
+bee                                                minetest
+benthos                                            minidlna
+bento4                                             minikube
+bettercap                                          minimal-racket
+bgpdump                                            minio
+bib-tool                                           minio-mc
+bibclean                                           miniserve
+bibtexconv                                         mint
+bibutils                                           mitie
+binaryen                                           mitmproxy
+bind                                               mk-configure
+bindfs                                             mkdocs
+binwalk                                            mkl-dnn
+biosig                                             mksh
+bison                                              mkvtomp4
+bitrise                                            mkvtoolnix
+blackbox                                           mlpack
+blis                                               mm-common
+blitz                                              mmctl
+bluepill                                           moarvm
+bluetoothconnector                                 mockolo
+blueutil                                           moco
+bmake                                              modman
+bochs                                              modules
+boost                                              molecule
+boost-build                                        molten-vk
+boost-python3                                      monero
+boot-clj                                           mongo-cxx-driver
+borgmatic                                          mongo-orchestration
+boringtun                                          mongodb/brew/mongodb-community@3.4
+botan                                              mongodb/brew/mongodb-community@3.6
+breezy                                             mongodb/brew/mongodb-community@4.0
+broot                                              mono
+buildifier                                         mono-libgdiplus
+buildkit                                           monolith
+buku                                               mosh
+bullet                                             movgrab
+bumpversion                                        mpd
+bundletool                                         mpi4py
+byacc                                              mpop
+bzt                                                mps-youtube
+c-ares                                             mpv
+c-blosc                                            msmtp
+cabal-install                                      mtools
+cacli                                              mu
+caddy                                              mujs
+caf                                                multimarkdown
+caffe                                              mupdf
+cairo                                              mupdf-tools
+calabash                                           mutt
+calceph                                            mvnvm
+calcurse                                           mvtools
+calicoctl                                          mycli
+capnp                                              mypy
+capstone                                           mysql
+cargo-c                                            mysql-client
+cargo-completion                                   mysql-client@5.7
+carla                                              mysql-connector-c++
+cartridge-cli                                      mysql-search-replace
+cassandra                                          n
+cassandra-cpp-driver                               nagios
+castxml                                            nano
+cataclysm                                          nanopb-generator
+catch2                                             nativefier
+cattle                                             nats-server
+ccache                                             nave
+ccfits                                             navi
+ccls                                               nbdime
+cdk                                                ncmpc
+cdk8s                                              ncmpcpp
+ceres-solver                                       nco
+certbot                                            ncview
+cfengine                                           ndpi
+cfitsio                                            nebula
+cfn-lint                                           needle
+cglm                                               nef
+cgns                                               neomutt
+cgoban                                             neon
+chadwick                                           nestopia-ue
+chafa                                              netcdf
+chakra                                             netdata
+chamber                                            nethogs
+chapel                                             netlify-cli
+charm-tools                                        netpbm
+cheat                                              nettle
+checkbashisms                                      newman
+checkstyle                                         newrelic-cli
+chordii                                            nfdump
+chromaprint                                        nginx
+chronograf                                         ngt
+chuck                                              nickle
+cimg                                               nicovideo-dl
+circleci                                           nifi
+citus                                              nifi-registry
+cjdns                                              nift
+cjson                                              nim
+ckan                                               nlopt
+clamav                                             nnn
+clang-format                                       node
+clib                                               node-build
+clingo                                             node-sass
+cloc                                               node@10
+clojure-lsp                                        node@12
+clojurescript                                      nodenv
+closure-compiler                                   nomad
+clozure-cl                                         notifiers
+clp                                                notmuch
+cmake                                              now-cli
+cmark                                              nqp
+cmark-gfm                                          nrpe
+codequery                                          nsd
+colordiff                                          nss
+comby                                              ntfs-3g
+composer                                           ntopng
+conan                                              nuget
+concurrencykit                                     numpy
+conserver                                          nushell
+console_bridge                                     nut
+consul                                             nuttcp
+consul-template                                    nyx
+contentful-cli                                     oauth2_proxy
+convox                                             oclgrind
+cookiecutter                                       ocrmypdf
+coq                                                octant
+cosi                                               octave
+coturn                                             octomap
+couchdb                                            offlineimap
+cpl                                                okteto
+cpp-gsl                                            ola
+cppcheck                                           olsrd
+cpprestsdk                                         omniorb
+credstash                                          oniguruma
+creduce                                            onscripter
+cromwell                                           opa
+cryptominisat                                      opam
+crystal                                            open-babel
+csound                                             open-completion
+csvq                                               open-image-denoise
+ctemplate                                          open-mesh
+ctl                                                open-zwave
+cups                                               openapi-generator
+curaengine                                         opencc
+curl                                               opencolorio
+curl-openssl                                       openconnect
+cvs                                                opencv
+cxxtest                                            opencv@2
+cypher-shell                                       opencv@3
+cython                                             openexr
+dafny                                              openfortivpn
+daq                                                openimageio
+darcs                                              openjdk@11
+dartsim                                            openldap
+dasm                                               openrct2
+datamash                                           opensaml
+datetime-fortran                                   openssl@1.1
+dav1d                                              opensubdiv
+davix                                              openttd
+davmail                                            openvdb
+dbmate                                             openvpn
+dcm2niix                                           operator-sdk
+ddclient                                           orc-tools
+ddgr                                               ortp
+deno                                               osc
+deployer                                           osm2pgrouting
+detekt                                             osmium-tool
+detox                                              osmosis
+devspace                                           ospray
+dfmt                                               osquery
+dhall                                              otf2
+dhall-bash                                         oxipng
+dhall-json                                         p11-kit
+dhall-lsp-server                                   pachi
+dhall-yaml                                         packer
+dialog                                             pagmo
+diamond                                            paket
+dict                                               par
+diff-pdf                                           parallel
+diff-so-fancy                                      parallelstl
+diffoscope                                         pari
+direnv                                             passenger
+dita-ot                                            passpie
+django-completion                                  pastebinit
+dmd                                                pazpar2
+dnsdist                                            pc6001vx
+dnsmasq                                            pcl
+dnstwist                                           pcre2
+dnsviz                                             pdal
+docfx                                              pdfcrack
+docker                                             pdfpc
+docker-completion                                  pdfsandwich
+docker-compose                                     pdftk-java
+docker-compose-completion                          pdftoipe
+doctl                                              pdns
+docutils                                           pegtl
+doitlive                                           percona-server
+dosbox-x                                           percona-toolkit
+dovecot                                            perl
+doxygen                                            perl@5.18
+drafter                                            peru
+dscanner                                           pgbouncer
+dub                                                pgcli
+duck                                               pgformatter
+dune                                               phoronix-test-suite
+dungeon                                            php
+duo_unix                                           php-code-sniffer
+duplicity                                          php-cs-fixer
+dvc                                                php@7.2
+dvdauthor                                          php@7.3
+dvdbackup                                          phplint
+dwdiff                                             phpmd
+dxpy                                               phpstan
+dyld-headers                                       phpunit
+e2fsprogs                                          pianobar
+e2tools                                            picard-tools
+easy-tag                                           picat
+easyrpg-player                                     pidgin
+eccodes                                            pike
+ecl                                                pinboard-notes-backup
+efl                                                pipx
+ejabberd                                           pius
+ejdb                                               pixman
+elasticsearch                                      pkg-config
+elixir                                             planck
+embree                                             plantuml
+emscripten                                         platformio
+enet                                               pmd
+ensmallen                                          pngpaste
+entr                                               pnpm
+envconsul                                          poetry
+ephemeralpg                                        polynote
+epic5                                              ponysay
+epstool                                            poppler
+eralchemy                                          posh
+erlang                                             postgresql
+erlang@21                                          postgresql@10
+eslint                                             postgresql@11
+etcd                                               postgresql@9.5
+ethereum                                           postgresql@9.6
+euler-py                                           postgrest
+evince                                             powerline-go
+exodriver                                          pre-commit
+exploitdb                                          prestosql
+ext2fuse                                           prettier
+eye-d3                                             procs
+faas-cli                                           profanity
+fabric                                             proj
+faiss                                              prometheus
+fastlane                                           proteinortho
+fastmod                                            protobuf
+fasttext                                           protobuf-c
+faudio                                             protobuf@3.6
+fauna-shell                                        protoc-gen-go
+fb-client                                          protoc-gen-grpc-web
+fbi-servefiles                                     prototool
+fd                                                 proxytunnel
+fdroidserver                                       pspg
+feedgnuplot                                        pueue
+feh                                                pulp
+fetchmail                                          pulumi
+ffmpeg                                             pushpin
+ffmpeg2theora                                      puzzles
+ffmpeg@2.8                                         pwntools
+ffmpegthumbnailer                                  py3cairo
+ffms2                                              pybind11
+ffsend                                             pycodestyle
+fibjs                                              pyenv
+file-roller                                        pygobject3
+filebeat                                           pyinstaller
+findent                                            pylint
+findomain                                          pympress
+firebase-cli                                       pypy
+fish                                               pypy3
+flake8                                             pyqt
+flow                                               pyside
+fluent-bit                                         python-markdown
+fluid-synth                                        python-yq
+fluxctl                                            pytouhou
+flyway                                             pyvim
+fmt                                                q
+fn                                                 qalculate-gtk
+fobis                                              qbs
+folly                                              qcachegrind
+fontforge                                          qcli
+fonttools                                          qemu
+fop                                                qjackctl
+forcecli                                           qmmp
+ford                                               qpdf
+freeciv                                            qpid-proton
+freediameter                                       qscintilla2
+freeling                                           qt
+freerdp                                            quantlib
+freetds                                            quazip
+frotz                                              questdb
+frpc                                               quickjs
+frps                                               qxmpp
+frugal                                             r
+fruit                                              radare2
+fs-uae                                             rakudo
+fselect                                            rakudo-star
+funcoeszz                                          rancher-cli
+futhark                                            rargs
+fwup                                               ratfor
+fzf                                                rawtoaces
+gatsby-cli                                         raylib
+gawk                                               rbspy
+gcab                                               rdesktop
+gcc                                                rdfind
+gcc@4.9                                            rdiff-backup
+gcc@5                                              rdup
+gcc@6                                              re-flex
+gcc@7                                              re2
+gcc@8                                              rebar3
+gd                                                 recon-ng
+gdal                                               redex
+gdcm                                               redis
+gdk-pixbuf                                         redpen
+geant4                                             regina-rexx
+gedit                                              remarshal
+gegl                                               remind
+genders                                            repo
+geogram                                            restview
+geoipupdate                                        rex
+geos                                               rgbds
+geoserver                                          rgxg
+gerbil-scheme                                      ripgrep
+gettext                                            ripgrep-all
+gexiv2                                             rke
+gforth                                             robot-framework
+gh                                                 robotfindskitten
+ghc                                                rom-tools
+ghex                                               root
+gifski                                             roswell
+gimme                                              rpm
+ginac                                              rswift
+git                                                rsyslog
+git-absorb                                         ruby
+git-annex                                          ruby-build
+git-cinnabar                                       ruby@2.4
+git-cola                                           ruby@2.5
+git-delta                                          ruby@2.6
+git-filter-repo                                    rust
+git-gui                                            s-nail
+git-lfs                                            s3cmd
+git-plus                                           s3fs
+git-quick-stats                                    s3ql
+git-series                                         sagittarius-scheme
+git-subrepo                                        salt
+git-trim                                           samurai
+gitfs                                              sane-backends
+gitg                                               sbcl
+github-release                                     sbt
+gitlab-runner                                      scala
+gitleaks                                           scamper
+gitless                                            schema-evolution-manager
+gitmoji                                            scipy
+gitversion                                         scrcpy
+gjs                                                scummvm
+gl2ps                                              sd
+glade                                              sdl2
+gleam                                              seal
+glib                                               sec
+glib-networking                                    securefs
+glib-openssl                                       sentencepiece
+glm                                                serd
+glooctl                                            serf
+glslang                                            serverless
+gmic                                               shadowenv
+gmsh                                               shared-mime-info
+gmt                                                shellcheck
+gmt@5                                              shfmt
+gnome-latex                                        shibboleth-sp
+gnome-recipes                                      shogun
+gnu-chess                                          shunit2
+gnu-smalltalk                                      shyaml
+gnumeric                                           signal-cli
+gnustep-make                                       sile
+gnutls                                             silk
+go                                                 simgrid
+go-bindata                                         simh
+go@1.13                                            simple-scan
+goaccess                                           singular
+gobject-introspection                              sip
+gobo                                               siril
+godep                                              sispmctl
+goffice                                            sk
+golang-migrate                                     skaffold
+gom                                                skopeo
+goofys                                             sleuthkit
+googler                                            snakemake
+goolabs                                            snapcraft
+goose                                              snort
+gopass                                             softhsm
+goreleaser                                         solarus
+gotop                                              solr
+gpgme                                              sonarqube
+gprof2dot                                          sonarqube-lts
+gpsd                                               sonobuoy
+gradle                                             sourcedocs
+grafana                                            sourcery
+grails                                             spades
+grakn                                              spdlog
+graph-tool                                         sphinx-doc
+graphene                                           spim
+graphite2                                          spiped
+graphviz                                           spirv-cross
+grc                                                spirv-tools
+grex                                               spoof-mac
+grin                                               spotbugs
+grip                                               sql-translator
+gromacs                                            sqlcipher
+groonga                                            sqlmap
+groovy                                             squid
+groovysdk                                          src
+grpc                                               ssh-audit
+grpcurl                                            sslmate
+grsync                                             sslyze
+gsettings-desktop-schemas                          starship
+gsoap                                              stella
+gst-plugins-bad                                    stellar-core
+gst-plugins-ugly                                   step
+gst-python                                         stoken
+gtk+3                                              stone-soup
+gtk-doc                                            streamlink
+gtranslator                                        stress-ng
+gucharmap                                          strongswan
+guile                                              subliminal
+gwt                                                subversion
+hadolint                                           suite-sparse
+hapi-fhir-cli                                      sundials
+haproxy                                            supervisor
+harfbuzz                                           suricata
+hashpump                                           swagger-codegen
+haskell-stack                                      swagger-codegen@2
+hcloud                                             swift
+healpix                                            swift-protobuf
+heartbeat                                          swift-sh
+hebcal                                             swiftformat
+helm                                               swiftlint
+helm@2                                             syncthing
+helmfile                                           synfig
+helmsman                                           sysbench
+help2man                                           sysdig
+hevea                                              tarantool
+hfstospell                                         tarsnapper
+highlight                                          tass64
+hive                                               tbb
+hledger                                            tccutil
+hlint                                              tealdeer
+homeassistant-cli                                  tectonic
+homebank                                           teensy_loader_cli
+honcho                                             tektoncd-cli
+hopenpgp-tools                                     telegraf
+hpack                                              teleport
+hsd                                                template-glib
+http-server                                        termius
+httpd                                              termrec
+httpflow                                           termtosvg
+httpie                                             terraform
+hugo                                               terraform-docs
+hwloc                                              terraform-provider-libvirt
+i2pd                                               terragrunt
+iam-policy-json-to-terraform                       testssl
+iblinter                                           texlab
+ice                                                texmath
+icu4c                                              tflint
+idnits                                             theharvester
+igraph                                             thors-serializer
+igv                                                tig
+ilmbase                                            tika
+imagemagick                                        tile38
+imagemagick@6                                      timewarrior
+imapsync                                           timidity
+imgproxy                                           tintin
+inadyn                                             tmux
+influxdb                                           tmux-xpanes
+inform6                                            tmuxinator
+inlets                                             tmuxinator-completion
+inspircd                                           toast
+instead                                            tokei
+internetarchive                                    tomcat
+ipfs                                               tomcat-native
+ipmiutil                                           tomcat@7
+ipopt                                              tomcat@8
+ipython                                            topgrade
+ircd-hybrid                                        tor
+irrtoolset                                         tox
+ispc                                               traefik
+istioctl                                           trafficserver
+itstool                                            translate-shell
+janet                                              translate-toolkit
+jansson                                            travis
+jbake                                              treefrog
+jboss-forge                                        trezor-agent
+jdupes                                             triangle
+jenkins                                            triton
+jenkins-job-builder                                tth
+jenkins-lts                                        ttygif
+jetty                                              tundra
+jetty-runner                                       tunnel
+jflex                                              tvnamer
+jfrog-cli-go                                       twarc
+jhipster                                           txr
+jlog                                               typescript
+jmeter                                             uchardet
+joplin                                             ucloud
+jp2a                                               uftp
+jrnl                                               uhd
+jrtplib                                            ultralist
+jruby                                              uncrustify
+jsdoc3                                             ungit
+json-fortran                                       uni
+jsonrpc-glib                                       unoconv
+juju                                               unpaper
+jupyterlab                                         unrar
+jython                                             urdfdom
+k3d                                                urdfdom_headers
+kafka                                              urh
+kapacitor                                          urweb
+katago                                             userspace-rcu
+kcptun                                             utf8proc
+keepassc                                           uwsgi
+kepubify                                           v8
+kerl                                               vagrant-completion
+khal                                               vala
+khard                                              vale
+kibana                                             vapoursynth
+killswitch                                         vapoursynth-imwri
+kind                                               vapoursynth-ocr
+kitchen-sync                                       vapoursynth-sub
+knot                                               vault
+komposition                                        vcs
+kops                                               vdirsyncer
+kotlin                                             velero
+kpcli                                              verilator
+krakend                                            vert.x
+krb5                                               vfuse
+ktoblzcheck                                        vgmstream
+kubebuilder                                        viewvc
+kubecfg                                            vim
+kubectx                                            vips
+kubeprod                                           visp
+kubernetes-cli                                     vit
+kubernetes-service-catalog-client                  vnu
+kubeseal                                           vpn-slice
+kumo                                               vte3
+kustomize                                          vtk
+kvazaar                                            vttest
+kyma-cli                                           vulkan-headers
+languagetool                                       wabt
+lasso                                              wallpaper
+lazygit                                            wartremover
+lcm                                                wasm3
+le                                                 watchman
+ledger                                             wavpack
+lego                                               wcslib
+lensfun                                            weaver
+lerna                                              webarchiver
+lf                                                 weboob
+lft                                                webpack
+lgogdownloader                                     webtorrent-cli
+libaacs                                            weechat
+libarchive                                         whatmp3
+libav                                              whistle
+libbluray                                          widelands
+libcbor                                            wildfly-as
+libcdr                                             winetricks
+libcec                                             wireguard-go
+libdap                                             wireguard-tools
+libdazzle                                          wireshark
+libdca                                             wolfssl
+libdeflate                                         wordgrinder
+libdvdnav                                          wpscan
+libdvdread                                         wrangler
+libepoxy                                           write-good
+libfabric                                          wtf
+libffi                                             wtfutil
+libfido2                                           wumpus
+libflowmanager                                     wxmac
+libfreehand                                        wxmaxima
+libfreenect                                        wxpython
+libgeotiff                                         x264
+libgit2                                            xa
+libgit2-glib                                       xapian
+libgr                                              xclogparser
+libgsf                                             xcodegen
+libgsm                                             xdot
+libgweather                                        xerces-c
+libhttpserver                                      xgboost
+libical                                            xmake
+libjson-rpc-cpp                                    xml-tooling-c
+libksba                                            xmrig
+liblcf                                             xonsh
+libmaa                                             xpa
+libmspub                                           xrootd
+libmypaint                                         xsimd
+libntlm                                            xtensor
+libomp                                             yaegi
+libopenmpt                                         yamllint
+libosmium                                          yapf
+libpeas                                            yaws
+libphonenumber                                     yaz
+libplctag                                          yle-dl
+libpq                                              yosys
+libpqxx                                            you-get
+libprotoident                                      youtube-dl
+libproxy                                           yq
+libpst                                             z
+libpulsar                                          z3
+libqalculate                                       zabbix
+librdkafka                                         zbackup
+librealsense                                       zebra
+libressl                                           zeek
+librsvg                                            zero-install
+librsync                                           zig
+libsass                                            zim
+libsecret                                          zint
+libserdes                                          znapzend
+libsigc++                                          znc
+libsignal-protocol-c                               zorba
+libspectre
+==> Deleted Formulae
+compcert                 deis                     gnome-builder            pijul
+crc                      deisctl                  open-cobol
+
+==> Downloading https://homebrew.bintray.com/bottles/autoconf-2.69.catalina.bottle.4.tar.gz
+==> Downloading from https://akamai.bintray.com/ca/ca510b350e941fb9395522a03f9d2fb5df276085d806ceead
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/openssl%401.1-1.1.1g.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/19/1926679569c6af5337de812d86f4dad2b21ff883ad3a5d2cd
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/pkg-config-0.29.2_3.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/80/80f141e695f73bd058fd82e9f539dc67471666ff6800c5e28
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/readline-8.0.4.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/6a/6ae1c8e7c783f32bd22c6085caa4d838fed7fb386da7e40ca
+######################################################################## 100.0%
+==> Downloading https://homebrew.bintray.com/bottles/pyenv-1.2.18.catalina.bottle.tar.gz
+==> Downloading from https://akamai.bintray.com/bd/bd9f719f153e9574dcc65dc7fea28a3816557bd46b0ff90ad
+######################################################################## 100.0%
+==> Installing dependencies for pyenv: autoconf, openssl@1.1, pkg-config and readline
+==> Installing pyenv dependency: autoconf
+==> Pouring autoconf-2.69.catalina.bottle.4.tar.gz
+🍺  /usr/local/Cellar/autoconf/2.69: 67 files, 3.0MB
+==> Installing pyenv dependency: openssl@1.1
+==> Pouring openssl@1.1-1.1.1g.catalina.bottle.tar.gz
+==> Caveats
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides LibreSSL.
+
+If you need to have openssl@1.1 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+==> Summary
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1g: 8,059 files, 18MB
+==> Installing pyenv dependency: pkg-config
+==> Pouring pkg-config-0.29.2_3.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/pkg-config/0.29.2_3: 11 files, 623.7KB
+==> Installing pyenv dependency: readline
+==> Pouring readline-8.0.4.catalina.bottle.tar.gz
+==> Caveats
+readline is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides BSD libedit.
+
+For compilers to find readline you may need to set:
+  export LDFLAGS="-L/usr/local/opt/readline/lib"
+  export CPPFLAGS="-I/usr/local/opt/readline/include"
+
+For pkg-config to find readline you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/readline/lib/pkgconfig"
+
+==> Summary
+🍺  /usr/local/Cellar/readline/8.0.4: 48 files, 1.5MB
+==> Installing pyenv
+==> Pouring pyenv-1.2.18.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/pyenv/1.2.18: 695 files, 2.5MB
+==> `brew cleanup` has not been run in 30 days, running now...
+Removing: /Users/yh/Library/Caches/Homebrew/mongodb-community--4.2.3.tgz... (113.4MB)
+Removing: /Users/yh/Library/Logs/Homebrew/mongodb-community... (126B)
+Pruned 0 symbolic links and 2 directories from /usr/local
+==> Caveats
+==> openssl@1.1
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides LibreSSL.
+
+If you need to have openssl@1.1 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+For pkg-config to find openssl@1.1 you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig"
+
+==> readline
+readline is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides BSD libedit.
+
+For compilers to find readline you may need to set:
+  export LDFLAGS="-L/usr/local/opt/readline/lib"
+  export CPPFLAGS="-I/usr/local/opt/readline/include"
+
+For pkg-config to find readline you may need to set:
+  export PKG_CONFIG_PATH="/usr/local/opt/readline/lib/pkgconfig"
+
+yh@jeongboyeons-MacBook-Pro ~ % echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
+yh@jeongboyeons-MacBook-Pro ~ % pyenv --version
+pyenv 1.2.18
+yh@jeongboyeons-MacBook-Pro ~ % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
