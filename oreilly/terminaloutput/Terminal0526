@@ -1,0 +1,60 @@
+Last login: Tue May 26 21:44:20 on ttys000
+yh@jeongboyeons-MacBook-Pro ~ % python3 
+Python 3.8.1 (v3.8.1:1b293b6006, Dec 18 2019, 14:08:53) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import fib
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'fib'
+>>> ^D
+yh@jeongboyeons-MacBook-Pro ~ % cd
+yh@jeongboyeons-MacBook-Pro ~ % pwd
+/Users/yh
+yh@jeongboyeons-MacBook-Pro ~ % ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	PycharmProjects
+yh@jeongboyeons-MacBook-Pro ~ % ls -1
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+PycharmProjects
+yh@jeongboyeons-MacBook-Pro ~ % cd Desktop/programming/repositories/deer/oreilly/grammar/
+yh@jeongboyeons-MacBook-Pro grammar % python3 
+Python 3.8.1 (v3.8.1:1b293b6006, Dec 18 2019, 14:08:53) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import fib
+>>> fib.fib(1000)
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 
+>>> fib.fib2(100)
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+>>> fib = fib.fib
+>>> fib(500)
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 
+>>> 
+>>> 
+>>> from fib import fib, fib2
+>>> fib(500)
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 
+>>> "importing all modules:"
+'importing all modules:'
+>>> from fib import *
+>>> "import as another name:"
+'import as another name:'
+>>> import fib as fibo 
+>>> fibo.fib(500)
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 
+>>> "can also apply to 'from'"
+"can also apply to 'from'"
+>>> from fib import fib2 as fibonacci 
+>>> fibonacci(100)
+[0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+>>> 
+
