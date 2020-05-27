@@ -1,0 +1,77 @@
+yh@jeongboyeons-MacBook-Pro env % pyenv virtualenv 2.3.1 settingenv 
+pyenv-virtualenv: `2.3.1' is not installed in pyenv.
+yh@jeongboyeons-MacBook-Pro env % pyenv install 2.3.1
+python-build: definition not found: 2.3.1
+
+The following versions contain `2.3.1' in the name:
+  pypy-2.3.1-src
+  pypy-2.3.1
+  pypy3-2.3.1-src
+  pypy3-2.3.1
+
+See all available versions with `pyenv install --list'.
+
+If the version you need is missing, try upgrading pyenv:
+
+  brew update && brew upgrade pyenv
+yh@jeongboyeons-MacBook-Pro env % pyenv install python3
+python-build: definition not found: python3
+
+See all available versions with `pyenv install --list'.
+
+If the version you need is missing, try upgrading pyenv:
+
+  brew update && brew upgrade pyenv
+yh@jeongboyeons-MacBook-Pro env % pyenv install pypy3-2.3.1
+Downloading pypy3-2.3.1-osx64.tar.bz2...
+-> https://bitbucket.org/pypy/pypy/downloads/pypy3-2.3.1-osx64.tar.bz2
+pyenv Installing pypy3-2.3.1-osx64...
+/usr/local/bin/python-build: line 1785: 14802 Killed: 9               "$PYTHON_BIN" -c "import $1" > /dev/null 2>&1
+WARNING: The Python bz2 extension was not compiled. Missing the bzip2 lib?
+/usr/local/bin/python-build: line 1785: 14803 Killed: 9               "$PYTHON_BIN" -c "import $1" > /dev/null 2>&1
+WARNING: The Python readline extension was not compiled. Missing the GNU readline lib?
+/usr/local/bin/python-build: line 1794: 14804 Killed: 9               "$PYTHON_BIN" -c "import $1" > /dev/null 2>&1
+ERROR: The Python ssl extension was not compiled. Missing the OpenSSL lib?
+
+Please consult to the Wiki page to fix the problem.
+https://github.com/pyenv/pyenv/wiki/Common-build-problems
+
+
+BUILD FAILED (OS X 10.15.4 using python-build 20180424)
+
+Inspect or clean up the working tree at /var/folders/td/6krc28bx3lv404z8g1s7rkp80000gn/T/python-build.20200527161435.14729
+Results logged to /var/folders/td/6krc28bx3lv404z8g1s7rkp80000gn/T/python-build.20200527161435.14729.log
+
+Last 10 log lines:
+/var/folders/td/6krc28bx3lv404z8g1s7rkp80000gn/T/python-build.20200527161435.14729 ~/Desktop/programming/repositories/deer/tangerine/env
+/var/folders/td/6krc28bx3lv404z8g1s7rkp80000gn/T/python-build.20200527161435.14729/pypy3-2.3.1-osx64 /var/folders/td/6krc28bx3lv404z8g1s7rkp80000gn/T/python-build.20200527161435.14729 ~/Desktop/programming/repositories/deer/tangerine/env
+yh@jeongboyeons-MacBook-Pro ~ % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
