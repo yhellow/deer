@@ -98,3 +98,22 @@ def translator(phrase):
   return phrasel
 
 print(('').join(translator(input("insert phrase to translate: "))))
+
+# try 1
+try:
+    value = int('noneinteger')
+    print(value)
+except: 
+    print('cannot be converted into an integer')
+
+# try 2
+a = 'trigger zerodivisionerror'
+# b = 10/0
+    # zerodivisionerror directly breaks the program
+try: 
+    value = int(a)
+    print(value)
+except ZeroDivisionError:
+    print('division by zero!') 
+except ValueError:
+    print('cannot be converted into an integer')

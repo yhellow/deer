@@ -10,6 +10,3 @@
 # exec(open('testmodule.py').read())
 
 
-
-this = input('what else: ')
-print(this + ' is that')
