@@ -4,4 +4,4 @@ def multiplyer(x):
 def adder(x):
     return x +10
 
-print(adder(2))
+print(adder(4))
