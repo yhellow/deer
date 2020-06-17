@@ -1,0 +1,254 @@
+Last login: Tue Jun 16 13:11:59 on console
+yh@jeongboyeons-MacBook-Pro ~ % pwd
+/Users/yh
+yh@jeongboyeons-MacBook-Pro ~ % ls 
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	PycharmProjects
+yh@jeongboyeons-MacBook-Pro ~ % ls -1
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+Pictures
+Public
+PycharmProjects
+yh@jeongboyeons-MacBook-Pro ~ % cd Desktop/programming/repositories/fascam/lecture/        
+yh@jeongboyeons-MacBook-Pro lecture % ls
+section02-1.py	section02-2.py	section03-1.py
+yh@jeongboyeons-MacBook-Pro lecture % code .
+yh@jeongboyeons-MacBook-Pro lecture % ls  
+section02-1.py	section02-2.py	section03-1.py
+yh@jeongboyeons-MacBook-Pro lecture % ls 01
+ls: 01: No such file or directory
+yh@jeongboyeons-MacBook-Pro lecture % mkdir mkvenv 
+yh@jeongboyeons-MacBook-Pro lecture % python3 -m venv mkvenv
+yh@jeongboyeons-MacBook-Pro lecture % cd mkvenv
+yh@jeongboyeons-MacBook-Pro mkvenv % cd bin 
+yh@jeongboyeons-MacBook-Pro bin % source ./activate 
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin %  pip search simplejson 
+simplejson (3.17.0)             - Simple, fast, extensible JSON encoder/decoder for Python
+simple_json (1.1)               - Compatibility shim for simplejson
+schema-validator-halpa (0.0.7)  - A utility to validate JSON schemas with jsonschema with
+                                  simplejson
+omnijson (0.1.2)                - Wraps the best JSON installed, falling back on an     internal
+                                  simplejson.
+jsonutil (1.0.3)                - a wrapper around simplejson which deserializes decimals to
+                                  Decimal instead of to float
+exemelopy (0.0.9)               - exemelopy is a tool for building XML from native Python data-
+                                  types, similiar to the json/simplejson modules
+py-liant (0.6.0)                - Glue together pyramid, sqlalchemy, simplejson to provide a read-
+                                  write, object-graph-aware JSON API
+json2simplejson (1.0.0)         - A simple monkey patcher in order to make things that run using
+                                  the standard "json" library (such as discord.py) use the quicker
+                                  "simplejson" library.
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip install simplejson 
+Collecting simplejson
+  Downloading https://files.pythonhosted.org/packages/98/87/a7b98aa9256c8843f92878966dc3d8d914c14aad97e2c5ce4798d5743e07/simplejson-3.17.0.tar.gz (83kB)
+     |████████████████████████████████| 92kB 405kB/s 
+Installing collected packages: simplejson
+  Running setup.py install for simplejson ... done
+Successfully installed simplejson-3.17.0
+WARNING: You are using pip version 19.2.3, however version 20.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip show list
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip list
+Package    Version
+---------- -------
+pip        19.2.3 
+setuptools 41.2.0 
+simplejson 3.17.0 
+WARNING: You are using pip version 19.2.3, however version 20.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip install --upgrade pip 
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/43/84/23ed6a1796480a6f1a2d38f2802901d078266bda38388954d01d3f2e821d/pip-20.1.1-py2.py3-none-any.whl (1.5MB)
+     |████████████████████████████████| 1.5MB 581kB/s 
+Installing collected packages: pip
+  Found existing installation: pip 19.2.3
+    Uninstalling pip-19.2.3:
+      Successfully uninstalled pip-19.2.3
+Successfully installed pip-20.1.1
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 41.2.0
+simplejson 3.17.0
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip uninstall simplejson 
+Found existing installation: simplejson 3.17.0
+Uninstalling simplejson-3.17.0:
+  Would remove:
+    /Users/yh/Desktop/programming/repositories/fascam/lecture/mkvenv/lib/python3.8/site-packages/simplejson-3.17.0-py3.8.egg-info
+    /Users/yh/Desktop/programming/repositories/fascam/lecture/mkvenv/lib/python3.8/site-packages/simplejson/*
+Proceed (y/n)? y
+  Successfully uninstalled simplejson-3.17.0
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 41.2.0
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip install simplejson 
+Collecting simplejson
+  Using cached simplejson-3.17.0.tar.gz (83 kB)
+Using legacy setup.py install for simplejson, since package 'wheel' is not installed.
+Installing collected packages: simplejson
+    Running setup.py install for simplejson ... -ddone
+Successfully installed simplejson-3.17.0
+^R
+d%                                                                                                  (mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 41.2.0
+simplejson 3.17.0
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin %  pip search simple*
+zsh: no matches found: simple*
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip seach simple*
+zsh: no matches found: simple*
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip search simple*
+zsh: no matches found: simple*
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 41.2.0
+simplejson 3.17.0
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip search simplejson 
+simplejson (3.17.0)             - Simple, fast, extensible JSON encoder/decoder for Python
+  INSTALLED: 3.17.0 (latest)
+simple_json (1.1)               - Compatibility shim for simplejson
+schema-validator-halpa (0.0.7)  - A utility to validate JSON schemas with jsonschema with
+                                  simplejson
+omnijson (0.1.2)                - Wraps the best JSON installed, falling back on an     internal
+                                  simplejson.
+jsonutil (1.0.3)                - a wrapper around simplejson which deserializes decimals to
+                                  Decimal instead of to float
+exemelopy (0.0.9)               - exemelopy is a tool for building XML from native Python data-
+                                  types, similiar to the json/simplejson modules
+py-liant (0.6.0)                - Glue together pyramid, sqlalchemy, simplejson to provide a read-
+                                  write, object-graph-aware JSON API
+json2simplejson (1.0.0)         - A simple monkey patcher in order to make things that run using
+                                  the standard "json" library (such as discord.py) use the quicker
+                                  "simplejson" library.
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip install search simple*
+zsh: no matches found: simple*
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pip search install simple*
+zsh: no matches found: simple*
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % source ./deactivate
+source: no such file or directory: ./deactivate
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % pwd
+/Users/yh/Desktop/programming/repositories/fascam/lecture/mkvenv/bin
+(mkvenv) yh@jeongboyeons-MacBook-Pro bin % deactivate
+yh@jeongboyeons-MacBook-Pro bin % pwd
+/Users/yh/Desktop/programming/repositories/fascam/lecture/mkvenv/bin
+yh@jeongboyeons-MacBook-Pro bin % cd ../..
+yh@jeongboyeons-MacBook-Pro lecture % pwd
+/Users/yh/Desktop/programming/repositories/fascam/lecture
+yh@jeongboyeons-MacBook-Pro lecture % ls
+mkvenv		section02-1.py	section02-2.py	section03-1.py
+yh@jeongboyeons-MacBook-Pro lecture % rm -R mkvenv
+yh@jeongboyeons-MacBook-Pro lecture % ls -1
+section02-1.py
+section02-2.py
+section03-1.py
+yh@jeongboyeons-MacBook-Pro lecture % cd ..           
+yh@jeongboyeons-MacBook-Pro fascam % python3 -m venv fascam 
+yh@jeongboyeons-MacBook-Pro fascam % pwd 
+/Users/yh/Desktop/programming/repositories/fascam
+yh@jeongboyeons-MacBook-Pro fascam % ls 
+fascam		lecture		settingvenv
+yh@jeongboyeons-MacBook-Pro fascam % cd fascam 
+yh@jeongboyeons-MacBook-Pro fascam % ls 
+bin		include		lib		pyvenv.cfg
+yh@jeongboyeons-MacBook-Pro fascam % ls -1
+bin
+include
+lib
+pyvenv.cfg
+yh@jeongboyeons-MacBook-Pro fascam % cd ..
+yh@jeongboyeons-MacBook-Pro fascam % ls
+fascam		lecture		settingvenv
+yh@jeongboyeons-MacBook-Pro fascam % rm -R fascam 
+yh@jeongboyeons-MacBook-Pro fascam % ls 
+lecture		settingvenv
+yh@jeongboyeons-MacBook-Pro fascam % cd lecture 
+yh@jeongboyeons-MacBook-Pro lecture % ls -1
+section02-1.py
+section02-2.py
+section03-1.py
+yh@jeongboyeons-MacBook-Pro lecture % cd ..
+yh@jeongboyeons-MacBook-Pro fascam % python3 -m venv lecture
+cd%                                                                                                 yh@jeongboyeons-MacBook-Pro fascam % cd lecture 
+yh@jeongboyeons-MacBook-Pro lecture % ls -1
+bin
+include
+lib
+pyvenv.cfg
+section02-1.py
+section02-2.py
+section03-1.py
+yh@jeongboyeons-MacBook-Pro lecture % pwd
+/Users/yh/Desktop/programming/repositories/fascam/lecture
+yh@jeongboyeons-MacBook-Pro lecture % ls
+bin		lib		section02-1.py	section03-1.py
+include		pyvenv.cfg	section02-2.py
+yh@jeongboyeons-MacBook-Pro lecture % ls 01
+ls: 01: No such file or directory
+yh@jeongboyeons-MacBook-Pro lecture % cd bin
+yh@jeongboyeons-MacBook-Pro bin % source ./activate
+(lecture) yh@jeongboyeons-MacBook-Pro bin % pip search simplejson 
+simplejson (3.17.0)             - Simple, fast, extensible JSON encoder/decoder for Python
+simple_json (1.1)               - Compatibility shim for simplejson
+schema-validator-halpa (0.0.7)  - A utility to validate JSON schemas with jsonschema with
+                                  simplejson
+omnijson (0.1.2)                - Wraps the best JSON installed, falling back on an     internal
+                                  simplejson.
+jsonutil (1.0.3)                - a wrapper around simplejson which deserializes decimals to
+                                  Decimal instead of to float
+exemelopy (0.0.9)               - exemelopy is a tool for building XML from native Python data-
+                                  types, similiar to the json/simplejson modules
+py-liant (0.6.0)                - Glue together pyramid, sqlalchemy, simplejson to provide a read-
+                                  write, object-graph-aware JSON API
+json2simplejson (1.0.0)         - A simple monkey patcher in order to make things that run using
+                                  the standard "json" library (such as discord.py) use the quicker
+                                  "simplejson" library.
+(lecture) yh@jeongboyeons-MacBook-Pro bin % pip list    
+Package    Version
+---------- -------
+pip        19.2.3 
+setuptools 41.2.0 
+WARNING: You are using pip version 19.2.3, however version 20.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+(lecture) yh@jeongboyeons-MacBook-Pro bin % pip install --upgrade pip
+Collecting pip
+  Using cached https://files.pythonhosted.org/packages/43/84/23ed6a1796480a6f1a2d38f2802901d078266bda38388954d01d3f2e821d/pip-20.1.1-py2.py3-none-any.whl
+Installing collected packages: pip
+  Found existing installation: pip 19.2.3
+    Uninstalling pip-19.2.3:
+      Successfully uninstalled pip-19.2.3
+Successfully installed pip-20.1.1
+(lecture) yh@jeongboyeons-MacBook-Pro bin % pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 41.2.0
+(lecture) yh@jeongboyeons-MacBook-Pro bin % pip install simplejson 
+Collecting simplejson
+  Using cached simplejson-3.17.0.tar.gz (83 kB)
+Using legacy setup.py install for simplejson, since package 'wheel' is not installed.
+Installing collected packages: simplejson
+    Running setup.py install for simplejson ... done
+Successfully installed simplejson-3.17.0
+(lecture) yh@jeongboyeons-MacBook-Pro bin % pip list
+Package    Version
+---------- -------
+pip        20.1.1
+setuptools 41.2.0
+simplejson 3.17.0
+(lecture) yh@jeongboyeons-MacBook-Pro bin % code .
+(lecture) yh@jeongboyeons-MacBook-Pro bin % cd ..
+(lecture) yh@jeongboyeons-MacBook-Pro lecture % code .
+(lecture) yh@jeongboyeons-MacBook-Pro lecture % 
